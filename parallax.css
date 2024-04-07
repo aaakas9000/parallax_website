@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.image{
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.Section_dark {
+    background-color: rgb(159, 157, 153);
+    color: black;
+}
+
+.Section_light {
+    
+    color: rgb(159, 157, 153);
+    background-color: rgb(24, 24, 24);
+
+}
+
+.first_images{
+    background-image: url(images/1.jpg);
+    height: 500px;
+    opacity: .8px;
+}
+
+.second_images{
+    background-image: url(images/2.jpg);
+    height: 500px;
+    opacity: .8px;
+}
+
+.third_images{
+    background-image: url(images/3.jpg);
+    height: 500px;
+    opacity: .8px;
+}
+
+.fourth_images{
+    background-image: url(images/4.jpg);
+    height: 500px;
+    opacity: .8px;
+}
+
+
+#First{
+    text-align: center;
+    background-color: rgb(68, 68, 161);
+    color: red;
+    font-size: 50px;
+    position: relative;top: 200px;
+    opacity: .7 ;
+    width: 45%;
+    position: relative; left: 30%;
+}
+#Second {
+    text-align: center;
+    background-color: rgb(83, 161, 68);
+    color: rgb(8, 0, 255);
+    font-size: 50px;
+    position: relative;top: 200px;
+    opacity: .7 ;
+    width: 45%;
+    position: relative; left: 30%;
+}
+#Third {
+    text-align: center;
+    background-color: rgb(218, 11, 11);
+    color: rgb(11, 10, 10);
+    font-size: 50px;
+    position: relative;top: 200px;
+    opacity: .7 ;
+    width: 45%;
+    position: relative; left: 30%;
+}
+#Fourth {
+    text-align: center;
+    background-color: rgb(68, 68, 161);
+    color: rgb(0, 255, 106);
+    font-size: 50px;
+    position: relative;top: 200px;
+    opacity: .7 ;
+    width: 45%;
+    position: relative; left: 30%;
+}
+#Fifth{
+    text-align: center;
+    background-color: rgb(68, 141, 161);
+    color: red;
+    font-size: 50px;
+    position: relative;top: 200px;
+    opacity: .7 ;
+    width: 45%;
+    position: relative; left: 30%;
+}
